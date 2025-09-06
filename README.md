@@ -14,6 +14,7 @@ This project explores the use of **Large Language Models (LLMs)** for **material
    - This improves both **novelty** and **feasibility** of the generated ideas.  
 
 By gluing these two approaches together, the project demonstrates how **structured knowledge extraction** + **adversarial refinement** can improve the quality of LLM-driven hypothesis generation, particularly for corrosion science.  
+All credit for the underlying methods goes to the authors of these works. This repository is an exploratory adaptation to the corrosion domain.
 
 ---
 
@@ -30,4 +31,10 @@ By gluing these two approaches together, the project demonstrates how **structur
 - [OpenAI API](https://platform.openai.com/) (for GPT-4 and GPT-4o models)  
 - PyTorch or TensorFlow (for adversarial loop scaffolding)  
 - Standard libraries: `pandas`, `numpy`, `tqdm`, `matplotlib`  
-- Optional: `PyMuPDF` or `pdfminer.six` for PDF-to-text conversion  
+- Optional: `PyMuPDF` or `pdfminer.six` for PDF-to-text conversion
+
+
+## Notes
+
+This is not a polished research product but a demonstration project for showcasing LLM applications in materials science.
+Developed as part of personal research exploration; paused due to experimental resource constraints.
